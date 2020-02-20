@@ -14,7 +14,12 @@ const postcssPlugins = [tailwind()]
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Guten Morgen GO',
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg')
+    svgRule.uses.clear()
+    svgRule.use('vue-svg-loader').loader('vue-svg-loader')
+  },
   plugins: [
     {
       use: '@gridsome/plugin-sitemap',
