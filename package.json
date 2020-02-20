@@ -7,6 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "gridsome": "^0.7.0",
     "vue-gtag": "^1.2.1",
     "webfontloader": "^1.6.28",
