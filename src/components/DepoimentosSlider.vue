@@ -2,7 +2,7 @@
   <section class="py-32 bg-guten-gelo">
     <div class="container">
       <div class="flex justify-center">
-        <div class="w-1/2 relative">
+        <div class="w-5/6 lg:w-2/3 xl:w-1/2 relative">
           <div class="glide">
             <div data-glide-el="track" class="glide__track">
               <ul class="glide__slides">
@@ -48,11 +48,11 @@
               </ul>
             </div>
           </div>
-          <div class="controls left-0 ml-32" @click="slider.go('<')">
+          <div class="controls left-0 md:ml-32" @click="slider.go('<')">
             <BigArrow class="inverter" />
             <div class="sr-only">Depoimento anterior</div>
           </div>
-          <div class="controls right-0 mr-32" @click="slider.go('>')">
+          <div class="controls right-0 md:mr-32" @click="slider.go('>')">
             <BigArrow />
             <div class="sr-only">Próximo depoimento</div>
           </div>
@@ -79,7 +79,8 @@ export default {
   },
   mounted() {
     this.slider = new Glide('.glide', {
-      autoplay: 4000
+      autoplay: 4000,
+      perView: 1
     })
     this.slider.mount()
   }
@@ -93,6 +94,9 @@ export default {
 
 .controls {
   @apply .absolute .bottom-0 .font-bold .cursor-pointer .text-guten-bege .text-3xl .font-serif;
+
+  @media (max-width: 767px) {
+  }
 }
 
 .inverter {

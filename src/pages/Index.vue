@@ -3,7 +3,7 @@
     <section class="bg-black">
       <div class="container">
         <div class="flex pt-32 pb-20">
-          <div class="w-1/2 px-4">
+          <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
             <div class="quote">
               Só uma mudança cultural profunda, que eleve o nível do debate, não
               apenas na política, mas em todas as áreas, poderá mudar
@@ -11,14 +11,17 @@
             </div>
             <p class="font-bold my-2 text-white">Flavio Morgenstern</p>
           </div>
-          <div class="w-1/2 px-4 flex justify-center align-middle">
+          <div
+            class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
+          >
             <button @click="videoPopup">
               <PlayButton />
+              <div class="sr-only">Assistir ao Vídeo</div>
             </button>
           </div>
         </div>
         <div class="flex justify-start px-4">
-          <call-to-action filled link="https://google.com" size="lg">
+          <call-to-action filled="bege" link="https://google.com" size="lg">
             <span class="pr-3">Inscreva-se</span> <RightArrow />
           </call-to-action>
         </div>
@@ -26,37 +29,49 @@
     </section>
     <section class="bg-black pt-16 pb-8">
       <div class="container">
-        <div class="flex text-white font-serif">
-          <div class="w-1/4 px-4 flex border-r-2 border-guten-cinza-1">
+        <div class="flex flex-wrap text-white font-serif">
+          <div
+            class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex lg:border-r-2 lg:border-guten-cinza-1"
+          >
             <div class="w-1/3 flex justify-center"><Star /></div>
-            <div class="w-2/3">Seja capaz de elevar o nível do debate.</div>
+            <div class="w-2/3 self-center md:self-start">
+              Seja capaz de elevar o nível do debate.
+            </div>
           </div>
-          <div class="w-1/4 px-4 flex border-r-2 border-guten-cinza-1">
+          <div
+            class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex lg:border-r-2 lg:border-guten-cinza-1"
+          >
             <div class="w-1/3 flex justify-center"><Star /></div>
-            <div class="w-2/3">Aprenda de forma rápida e concisa</div>
+            <div class="w-2/3 self-center md:self-start">
+              Aprenda de forma rápida e concisa
+            </div>
           </div>
-          <div class="w-1/4 px-4 flex border-r-2 border-guten-cinza-1">
+          <div
+            class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex lg:border-r-2 lg:border-guten-cinza-1"
+          >
             <div class="w-1/3 flex justify-center"><Star /></div>
-            <div class="w-2/3">
+            <div class="w-2/3 self-center md:self-start">
               Prepare-se para uma profunda transformação na sua visão de mundo.
             </div>
           </div>
-          <div class="w-1/4 px-4 flex">
+          <div class="w-full md:w-1/2 lg:w-1/4 my-4 lg:m-0 px-4 flex">
             <div class="w-1/3 flex justify-center"><Star /></div>
-            <div class="w-2/3">Ajude e mudar o Brasil</div>
+            <div class="w-2/3 self-center md:self-start">
+              Ajude e mudar o Brasil
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="pt-20 pb-16">
       <div class="container">
-        <div class="w-1/3 m-auto">
+        <div class="md:w-2/3 xl:w-1/3 m-auto">
           <h2 class="title-1">
             O que realmente faz diferença é o conhecimento
           </h2>
         </div>
         <div class="flex justify-center">
-          <div class="wysiwyg w-2/3 my-16 mx-8">
+          <div class="wysiwyg md:w-11/12 lg:w-2/3 my-16 mx-4 sm:mx-8">
             <p>
               <b>Talvez você não saiba, mas eu já fui esquerdista.</b> <br />
               Sim, meu amigo, já acreditei nesse conto da carochinha. Sabe como
@@ -151,10 +166,10 @@
         </div>
         <div class="flex justify-center">
           <call-to-action
-            filled
+            filled="bege"
             link="https://google.com"
             size="lg"
-            class="shadow-2xl"
+            class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >
             <span class="pr-3">Inscreva-se</span> <RightArrow />
           </call-to-action>
@@ -163,6 +178,44 @@
     </section>
     <!-- Outras sessões -->
     <DepoimentosSlider />
+    <Modulos />
+    <BlocoCTA />
+    <Depoimentos />
+
+    <section class="py-32">
+      <div class="container px-4">
+        <div class="flex justify-center mb-16">
+          <h2 class="title-1">
+            Quem vai se beneficiar desse conteúdo
+          </h2>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-full md:w-1/2 px-4">
+            <ul class="lista">
+              <li>Advogados</li>
+              <li>Publicitários e Marketeiros</li>
+              <li>Juristas</li>
+              <li>Políticos e pessoas que trabalham com política</li>
+              <li>Psicólogos</li>
+              <li>Empresários</li>
+              <li>Estudantes</li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/2 px-4">
+            <ul class="lista">
+              <li>Donas de casa</li>
+              <li>Aposentados</li>
+              <li>Jornalistas</li>
+              <li>Vendedores</li>
+              <li>Funcionários Públicos</li>
+              <li>Cidadãos brasileiros interessados em melhorar o Brasil.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <Assine />
   </Layout>
 </template>
 
@@ -174,6 +227,9 @@ import CTA from '~/components/shared/Cta'
 
 import DepoimentosSlider from '~/components/DepoimentosSlider'
 import Modulos from '~/components/Modulos'
+import BlocoCTA from '~/components/BlocoCTA'
+import Depoimentos from '~/components/Depoimentos'
+import Assine from '~/components/Assine'
 
 import 'wysiwyg.css'
 
@@ -187,7 +243,10 @@ export default {
     Star,
     'call-to-action': CTA,
     DepoimentosSlider,
-    Modulos
+    Modulos,
+    BlocoCTA,
+    Depoimentos,
+    Assine
   },
   methods: {
     videoPopup() {
@@ -217,6 +276,20 @@ export default {
     @apply .right-0 .bottom-0;
     transform: translate3d(100%, 0, 0);
   }
+
+  @media (max-width: 1024px) {
+    @apply .text-3xl;
+  }
+
+  @media (max-width: 500px) {
+    @apply .text-2xl;
+  }
+}
+ul.lista {
+  li {
+    list-style-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCA2IDYiPjxyZWN0IHdpZHRoPSI2IiBoZWlnaHQ9IjYiIGZpbGw9IiNiMjk5NjUiLz48L3N2Zz4=);
+    margin-bottom: 0.25rem;
+  }
 }
 
 /******************************
@@ -233,8 +306,9 @@ export default {
 
   &::after {
     content: '';
-    @apply .block .w-1/3 .bg-guten-bege .m-auto .mt-6;
+    @apply .block .bg-guten-bege .m-auto .mt-6;
     height: 5px;
+    width: 125px;
   }
 }
 
