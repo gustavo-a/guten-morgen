@@ -151,6 +151,17 @@ export default {
           }
         }
       }
+
+      @media (max-width: 500px) {
+        &:nth-of-type(odd),
+        &:nth-of-type(even) {
+          .content {
+            width: 100%;
+            @apply .pr-4 .pl-4;
+            transform: translate3d(0, 0, 0);
+          }
+        }
+      }
     }
   }
 

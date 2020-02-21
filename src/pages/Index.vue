@@ -2,7 +2,7 @@
   <Layout>
     <section class="bg-black">
       <div class="container">
-        <div class="flex pt-32 pb-20">
+        <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
           <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
             <div class="quote">
               Só uma mudança cultural profunda, que eleve o nível do debate, não
@@ -284,6 +284,10 @@ export default {
   @media (max-width: 500px) {
     @apply .text-2xl;
   }
+
+  @media (max-width: 360px) {
+    @apply .text-xl;
+  }
 }
 ul.lista {
   li {
@@ -315,5 +319,9 @@ ul.lista {
 .title-2,
 .wysiwyg .title-2 {
   @apply .text-2xl .font-normal;
+
+  @media (max-width: 360px) {
+    @apply .text-xl;
+  }
 }
 </style>
