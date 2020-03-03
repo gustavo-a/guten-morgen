@@ -7,7 +7,7 @@
         </h2>
       </div>
       <div class="flex flex-wrap justify-center md:justify-evenly">
-        <Depoimento link="https://google.com">
+        <Depoimento>
           <template #imagem>
             <g-image src="~/assets/images/flavio-bolsonaro.jpg"></g-image>
           </template>
@@ -16,6 +16,16 @@
           </template>
           <template #descricao>
             Lorem ipsum dolor sit amet consectetur.
+          </template>
+          <template #conteudo>
+            <iframe
+              width="956"
+              height="538"
+              src="https://www.youtube.com/embed/KetGbkalUgQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </template>
         </Depoimento>
         <Depoimento>
@@ -28,6 +38,16 @@
           <template #descricao>
             Lorem ipsum dolor sit amet consectetur.
           </template>
+          <template #conteudo>
+            <iframe
+              width="956"
+              height="538"
+              src="https://www.youtube.com/embed/KetGbkalUgQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </template>
         </Depoimento>
         <Depoimento>
           <template #imagem>
@@ -38,6 +58,16 @@
           </template>
           <template #descricao>
             Lorem ipsum dolor sit amet consectetur.
+          </template>
+          <template #conteudo>
+            <iframe
+              width="956"
+              height="538"
+              src="https://www.youtube.com/embed/KetGbkalUgQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </template>
         </Depoimento>
       </div>
