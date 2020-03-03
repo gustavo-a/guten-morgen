@@ -17,7 +17,7 @@
             border
             link="https://google.com"
             size="md"
-            class="sm:mx-2"
+            class="sm:mx-2 text-sm sm:text-base"
           >
             Inscreva-se
           </call-to-action>
@@ -25,7 +25,7 @@
             border
             link="https://google.com"
             size="md"
-            class="ml-2 sm:mx-2"
+            class="ml-2 sm:mx-2 text-sm sm:text-base"
           >
             <User /> <span class="pl-3">Login</span>
           </call-to-action>

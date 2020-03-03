@@ -1,44 +1,46 @@
 <template>
   <Layout>
-    <section class="bg-black">
-      <div class="container">
-        <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
-          <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
-            <div class="quote">
-              Só uma mudança cultural profunda, que eleve o nível do debate, não
-              apenas na política, mas em todas as áreas, poderá mudar
-              verdadeiramente o Brasil.
-            </div>
-            <p class="font-bold my-2 text-white">Flavio Morgenstern</p>
-          </div>
-          <div
-            class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
-          >
-            <Popup v-model="videoPopup">
-              <div class="video-container">
-                <iframe
-                  width="956"
-                  height="538"
-                  src="https://www.youtube.com/embed/KetGbkalUgQ"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+    <div class="bg-black">
+      <section class="bg-flavio-wrapper flex">
+        <div class="container pb-12 bg-flavio mt-auto">
+          <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
+            <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
+              <div class="quote">
+                Só uma mudança cultural profunda, que eleve o nível do debate,
+                não apenas na política, mas em todas as áreas, poderá mudar
+                verdadeiramente o Brasil.
               </div>
-            </Popup>
-            <button @click="videoPopup = !videoPopup">
-              <PlayButton />
-              <div class="sr-only">Assistir ao Vídeo</div>
-            </button>
+              <p class="font-bold my-2 text-white">Flavio Morgenstern</p>
+            </div>
+            <div
+              class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
+            >
+              <Popup v-model="videoPopup">
+                <div class="video-container">
+                  <iframe
+                    width="956"
+                    height="538"
+                    src="https://www.youtube.com/embed/KetGbkalUgQ"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </Popup>
+              <button @click="videoPopup = !videoPopup">
+                <PlayButton />
+                <div class="sr-only">Assistir ao Vídeo</div>
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-start px-4">
+            <call-to-action filled="bege" link="https://google.com" size="lg">
+              <span class="pr-3">Inscreva-se</span> <RightArrow />
+            </call-to-action>
           </div>
         </div>
-        <div class="flex justify-start px-4">
-          <call-to-action filled="bege" link="https://google.com" size="lg">
-            <span class="pr-3">Inscreva-se</span> <RightArrow />
-          </call-to-action>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="bg-black pt-16 pb-8">
       <div class="container">
         <div class="flex flex-wrap text-white font-serif">
@@ -271,6 +273,63 @@ export default {
 </script>
 
 <style lang="scss">
+.bg-flavio {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(30, 30, 30, 0.8)
+    ),
+    url('../assets/images/flavio-bg.png') no-repeat center right;
+  background-size: contain;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  @media (max-width: 1300px) {
+    background: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+
+.bg-flavio-wrapper {
+  @media (max-width: 1300px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 50%,
+        rgba(30, 30, 30, 0.8)
+      ),
+      url('../assets/images/flavio-bg.png') no-repeat center right;
+    background-size: contain;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  @media (max-width: 767px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(17, 17, 17, 0.02) 0%,
+        rgba(41, 41, 41, 0.86) 75%,
+        rgba(49, 49, 49, 1) 90%
+      ),
+      url('../assets/images/flavio-bg.png') no-repeat center right;
+    background-size: 130%;
+    height: 745px;
+    background-position: top center;
+  }
+
+  @media (max-width: 500px) {
+    height: 680px;
+  }
+
+  @media (max-width: 430px) {
+    height: 630px;
+  }
+
+  @media (max-width: 360px) {
+    height: 580px;
+  }
+}
+
 .quote {
   @apply .text-guten-bege .font-serif .text-4xl .italic .relative .inline;
 
