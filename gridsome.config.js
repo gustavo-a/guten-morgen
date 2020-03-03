@@ -15,6 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Guten Morgen GO',
+  siteUrl: 'https://staging-go.sensoincomum.org',
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()

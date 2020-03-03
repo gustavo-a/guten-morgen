@@ -246,7 +246,7 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Conheça a guerra que mudou tudo!'
   },
   components: {
     PlayButton,
