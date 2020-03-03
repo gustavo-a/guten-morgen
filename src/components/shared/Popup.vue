@@ -2,7 +2,7 @@
   <transition name="popup">
     <div
       class="popup"
-      v-show="value"
+      v-if="value"
       @click="$event.target === $event.currentTarget && close()"
     >
       <div class="popup__content">
