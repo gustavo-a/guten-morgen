@@ -276,9 +276,8 @@ export default {
 .bg-flavio {
   background: linear-gradient(
       to bottom,
-      rgba(17, 17, 17, 0.02) 0%,
-      rgba(41, 41, 41, 0.86) 80%,
-      rgba(49, 49, 49, 1) 90%
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(30, 30, 30, 0.8)
     ),
     url('../assets/images/flavio-bg.png') no-repeat center right;
   background-size: contain;

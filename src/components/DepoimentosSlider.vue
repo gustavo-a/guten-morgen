@@ -94,7 +94,7 @@ export default {
   },
   mounted() {
     this.slider = new Glide('.glide', {
-      autoplay: 6000,
+      autoplay: 4000,
       perView: 1
     })
     this.slider.mount()
