@@ -15,14 +15,16 @@
             class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
           >
             <Popup v-model="videoPopup">
-              <iframe
-                width="956"
-                height="538"
-                src="https://www.youtube.com/embed/KetGbkalUgQ"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <div class="video-container">
+                <iframe
+                  width="956"
+                  height="538"
+                  src="https://www.youtube.com/embed/KetGbkalUgQ"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </Popup>
             <button @click="videoPopup = !videoPopup">
               <PlayButton />
@@ -337,8 +339,21 @@ ul.lista {
   }
 }
 
-iframe {
-  max-width: 100%;
-  height: auto;
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>

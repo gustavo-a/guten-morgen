@@ -18,14 +18,16 @@
             Lorem ipsum dolor sit amet consectetur.
           </template>
           <template #conteudo>
-            <iframe
-              width="956"
-              height="538"
-              src="https://www.youtube.com/embed/KetGbkalUgQ"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="video-container">
+              <iframe
+                width="956"
+                height="538"
+                src="https://www.youtube.com/embed/KetGbkalUgQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </template>
         </Depoimento>
         <Depoimento>
@@ -39,14 +41,16 @@
             Lorem ipsum dolor sit amet consectetur.
           </template>
           <template #conteudo>
-            <iframe
-              width="956"
-              height="538"
-              src="https://www.youtube.com/embed/KetGbkalUgQ"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="video-container">
+              <iframe
+                width="956"
+                height="538"
+                src="https://www.youtube.com/embed/KetGbkalUgQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </template>
         </Depoimento>
         <Depoimento>
@@ -60,14 +64,16 @@
             Lorem ipsum dolor sit amet consectetur.
           </template>
           <template #conteudo>
-            <iframe
-              width="956"
-              height="538"
-              src="https://www.youtube.com/embed/KetGbkalUgQ"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div class="video-container">
+              <iframe
+                width="956"
+                height="538"
+                src="https://www.youtube.com/embed/KetGbkalUgQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
           </template>
         </Depoimento>
       </div>

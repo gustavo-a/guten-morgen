@@ -48,4 +48,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss">
+#logo-header {
+  @media (max-width: 639px) {
+    width: 200px;
+  }
+}
+</style>

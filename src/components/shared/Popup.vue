@@ -36,6 +36,7 @@ export default {
 
   &__content {
     @apply .bg-white .p-8 .relative .rounded .transform .translate-y-0;
+    width: 90%;
     max-width: 1200px;
   }
 
