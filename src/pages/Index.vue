@@ -336,4 +336,9 @@ ul.lista {
     @apply .text-xl;
   }
 }
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
 </style>

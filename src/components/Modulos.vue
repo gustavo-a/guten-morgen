@@ -13,7 +13,9 @@
           <ol>
             <li>
               <div class="content">
-                <div class="titulo">Lorem Ipsum</div>
+                <div class="titulo">
+                  O cenário da Europa antes da Guerra e o início do conflito
+                </div>
                 <div class="duracao">+ de 8 mil horas</div>
                 <div class="descricao">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -25,7 +27,9 @@
             </li>
             <li>
               <div class="content">
-                <div class="titulo">Lorem Ipsum</div>
+                <div class="titulo">
+                  1915: o ano que virou o mundo de cabeça pra baixo.
+                </div>
                 <div class="duracao">+ de 8 mil horas</div>
                 <div class="descricao">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -37,7 +41,9 @@
             </li>
             <li>
               <div class="content">
-                <div class="titulo">Lorem Ipsum</div>
+                <div class="titulo">
+                  O período mais violento de todos os tempos.
+                </div>
                 <div class="duracao">+ de 8 mil horas</div>
                 <div class="descricao">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,7 +55,9 @@
             </li>
             <li>
               <div class="content">
-                <div class="titulo">Lorem Ipsum</div>
+                <div class="titulo">
+                  As mudanças políticas, culturais e comportamentais.
+                </div>
                 <div class="duracao">+ de 8 mil horas</div>
                 <div class="descricao">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -61,7 +69,9 @@
             </li>
             <li>
               <div class="content">
-                <div class="titulo">Lorem Ipsum</div>
+                <div class="titulo">
+                  O fim da guerra e surgimento do mundo atual.
+                </div>
                 <div class="duracao">+ de 8 mil horas</div>
                 <div class="descricao">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.

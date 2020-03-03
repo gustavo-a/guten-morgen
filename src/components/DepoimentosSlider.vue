@@ -8,11 +8,10 @@
               <ul class="glide__slides">
                 <li class="glide__slide">
                   <p class="title-2">
-                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequuntur, aperiam earum quia repellendus doloremque
-                    neque reiciendis delectus. Eos, illo optio, accusantium
-                    natus obcaecati similique eveniet facere, sunt fugiat
-                    debitis quas.”
+                    “Devo muito do meu conhecimento e da minha carreira na
+                    política ao que aprendi com o Flavio Morgenstern. Fiz a
+                    minha inscrição no Guten Morgen Go e estou ansioso para
+                    iniciar o programa.”
                   </p>
                   <div class="text-center mt-8">
                     <div class="font-bold">Eduardo Bolsonaro</div>
@@ -21,28 +20,44 @@
                 </li>
                 <li class="glide__slide">
                   <p class="title-2">
-                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequuntur, aperiam earum quia repellendus doloremque
-                    neque reiciendis delectus. Eos, illo optio, accusantium
-                    natus obcaecati similique eveniet facere, sunt fugiat
-                    debitis quas.”
+                    “O Flavio está sendo um dos caras mais importantes para o
+                    processo de elevação do debate político que vem ocorrendo no
+                    Brasil. Vale a pena aprender com ele. Estou dentro!”
                   </p>
                   <div class="text-center mt-8">
-                    <div class="font-bold">Eduardo Bolsonaro</div>
-                    <div>Deputado Federal (Aliança-SP).</div>
+                    <div class="font-bold">Bene Barbosa</div>
+                    <div>
+                      Analista de segurança, articulista, palestrante, IAT e
+                      autor do best-seller “Mentiram Para Mim Sobre o
+                      Desarmamento
+                    </div>
                   </div>
                 </li>
                 <li class="glide__slide">
                   <p class="title-2">
-                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequuntur, aperiam earum quia repellendus doloremque
-                    neque reiciendis delectus. Eos, illo optio, accusantium
-                    natus obcaecati similique eveniet facere, sunt fugiat
-                    debitis quas.”
+                    “Sensacional essa ideia de fazer um curso sobre a Primeira
+                    Guerra! Meu xará é muito bom! Já vi uma prévia do conteúdo e
+                    posso dar um pequeno spoiler: vai ser épico!”
                   </p>
                   <div class="text-center mt-8">
-                    <div class="font-bold">Eduardo Bolsonaro</div>
-                    <div>Deputado Federal (Aliança-SP).</div>
+                    <div class="font-bold">Flávio Gordon</div>
+                    <div>
+                      Escritor, autor do best-seller “A corrupção da
+                      Inteligência”.
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <p class="title-2">
+                    “Só digo uma coisa: esse é o projeto da vida do Flavio. Não
+                    percam por nada!”
+                  </p>
+                  <div class="text-center mt-8">
+                    <div class="font-bold">Filipe Martins</div>
+                    <div>
+                      Assessor Especial da Presidência da República para
+                      Assuntos Internacionais
+                    </div>
                   </div>
                 </li>
               </ul>

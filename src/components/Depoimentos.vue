@@ -9,10 +9,10 @@
       <div class="flex flex-wrap justify-center md:justify-evenly">
         <Depoimento>
           <template #imagem>
-            <g-image src="~/assets/images/flavio-bolsonaro.jpg"></g-image>
+            <g-image src="~/assets/images/eduardo-bolsonaro.jpg"></g-image>
           </template>
           <template #nome>
-            Flávio Bolsonaro
+            Eduardo Bolsonaro
           </template>
           <template #descricao>
             Lorem ipsum dolor sit amet consectetur.
@@ -30,10 +30,10 @@
         </Depoimento>
         <Depoimento>
           <template #imagem>
-            <g-image src="~/assets/images/flavio-bolsonaro.jpg"></g-image>
+            <g-image src="~/assets/images/bene.jpg"></g-image>
           </template>
           <template #nome>
-            Flávio Bolsonaro
+            Bene Barbosa
           </template>
           <template #descricao>
             Lorem ipsum dolor sit amet consectetur.
@@ -51,10 +51,10 @@
         </Depoimento>
         <Depoimento>
           <template #imagem>
-            <g-image src="~/assets/images/flavio-bolsonaro.jpg"></g-image>
+            <g-image src="~/assets/images/filipe-martins.jpg"></g-image>
           </template>
           <template #nome>
-            Flávio Bolsonaro
+            Filipe Martins
           </template>
           <template #descricao>
             Lorem ipsum dolor sit amet consectetur.
