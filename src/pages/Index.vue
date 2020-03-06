@@ -87,57 +87,71 @@
         <div class="flex justify-center">
           <div class="wysiwyg md:w-11/12 lg:w-2/3 my-16 mx-4 sm:mx-8">
             <p>
-              <b>Talvez você não saiba, mas eu já fui esquerdista.</b> <br />
-              Sim, meu amigo, já acreditei nesse conto da carochinha. Sabe como
-              são os adolescentes, né? Quando questionado sobre o conselho que
-              daria aos jovens, Nelson Rodrigues respondeu: “envelheçam”. Mas,
-              com todo respeito ao grande Nelson, somente envelhecer não basta.
-              É enorme o número de senhores de idade hoje que mais parecem
-              adolescentes.
+              <b>
+                Quase todas as grandes questões do mundo atual têm uma origem
+                comum.
+              </b>
             </p>
             <p>
-              No meu caso, quando aprendi que as ideias esquerdistas levam,
-              inexoravelmente, à miséria, servidão e morte (exceto para os
-              membros do partido), mudei minha visão de mundo e abandonei os
-              ideais marxistas. Foi duro. O marxismo cultural está muito
-              enraizado no Brasil, especialmente na academia, notadamente nas
-              ciências humanas e, mais ainda, nas áreas de letras e filosofia...
-              Justamente as minhas áreas de estudo naquele momento.
+              Quando leio sobre questões políticas atuais, noto sempre que as
+              pessoas infelizmente não conhecem a origem de seus próprios
+              pensamentos – e, ainda mais, desconhecem a história que gerou o
+              que discutimos no mundo de hoje.
             </p>
             <p>
-              Virei um pária. E, como ainda não tinha uma bagagem cultural muito
-              grande, apanhava demais nas conversas e debates. No fim das
-              contas, ainda não tinha boas respostas para os argumentos dos
-              “esquerdistas profissionais” – afinal, eles vivem disso.
+              Quer um exemplo? Estamos numa nova discussão política que parece
+              velha: o ressurgimento do nacionalismo, sobretudo contra o chamado
+              globalismo. Mas por que o nacionalismo voltou no século XXI? Qual
+              a sua origem? Por que o famoso nacionalismo alemão gerou tanto os
+              Irmãos Grimm quanto Adolf Hitler?
             </p>
             <p>
-              Talvez você esteja passando ou já tenha passado por algo
-              semelhante.
+              O nacionalismo teve seu grande ápice na Primeira Guerra Mundial,
+              quando um nacionalista sérvio-bósnio destruiu o sistema de
+              monarquias internacionais. E foi seu fim que criou os órgãos de
+              governança globalistas de hoje.
             </p>
             <p>
-              Foi quando decidi me dedicar a entender esses temas e mergulhei no
-              estudo de autores conservadores como Eric Voeglin, Edmund Burke,
-              Alexis de Toquevile, João Pereira Coutinho, Olavo de Carvalho,
-              Friedrich Hayek e Roger Scruton.
+              Pense nos problemas mundiais de agora. Oriente Médio? Os diversos
+              países da região passaram a existir – brigando entre si – quando o
+              Império Otomano ruiu após a revolta árabe, no fim da Primeira
+              Guerra. Intervenções americanas? A América abandonou o
+              isolacionismo... no meio da Primeira Guerra. Aliás, a Primeira
+              Guerra foi a primeira “guerra ao terror” – e foi quando o Ocidente
+              parou de admirar reis para vibrar com a democracia.
             </p>
             <p>
-              Então meu mundo mudou. Depois de alguns anos trabalhando como
-              tradutor e revisor, fundei o Senso Incomum, o que, pra encurtar a
-              história, nos traz até aqui.
+              E nossas explicações para estes problemas? Marxismo? Virou
+              política de Estado com a Revolução Russa, no meio da Primeira
+              Guerra Mundial. Feminismo? A conquista do voto feminino foi no
+              fim... da Primeira Guerra. Estado laico? Ideologia? Novas formas
+              de família e de sexualidade? Adivinhe...
             </p>
             <p>
-              De todo o conhecimento que adquiri nos últimos 20 anos, se eu
-              pudesse destacar um assunto que fez a diferença para entender o
-              mundo em que vivemos hoje, não tenho dúvidas de que foi a
-              compreensão do que aconteceu na PRIMEIRA GUERRA MUNDIAL.
+              Há mais de 6 anos que venho estudando a fundo a Primeira Guerra
+              Mundial, e fico cada vez mais impressionado com o pouco que
+              sabemos de um conflito que definiu muito do que pensamos. É
+              dificílimo imaginar algo que estejamos discutindo no Facebook ou
+              no Twitter HOJE que não tenha tido sua origem, ou sua
+              materialização e expansão, justamente em um conflito que completou
+              100 anos há pouco.
+            </p>
+            <p>
+              Sempre quis criar algo que explicasse a fundo as idéias modernas –
+              o que está “por trás” de muitas das nossas discussões, que usam
+              palavras poderosas, mas vazias de sentido quando não sabemos seu
+              histórico. E percebi algo: boa parte do trabalho estava em
+              entender um conflito quase ignorado, sobretudo quando comparado à
+              Segunda Guerra. Mas, afinal, até o horror nazista só ocorreu...
+              por causa da Primeira Guerra Mundial.
+            </p>
+            <p>
+              Por isso preparei este curso: não é apenas para olhar para o
+              passado, mas para te ajudar a entender problemas de hoje, questões
+              que estão sendo discutidas agora – e vai desde a arte moderna até
+              o papel do Estado. Além de importante, certamente é emocionante!
             </p>
 
-            <p>
-              Tenho dedicado os últimos 5 anos a esse assunto. E é esse
-              conhecimento que gostaria de compartilhar com você através do
-              Guten Morgen Go. Esse trabalho é a segunda maior realização da
-              minha vida (a primeira é a minha linda filha, de 6 meses).
-            </p>
             <h3 class="title-2">
               Garanto uma coisa pra você: vai ser transformador.
             </h3>
