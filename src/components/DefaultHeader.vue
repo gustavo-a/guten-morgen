@@ -15,7 +15,7 @@
           <call-to-action
             filled="bege"
             border
-            link="https://google.com"
+            link="https://pay.hotmart.com/H21810049K"
             size="md"
             class="sm:mx-2 text-sm sm:text-base"
           >
@@ -23,7 +23,7 @@
           </call-to-action>
           <call-to-action
             border
-            link="https://google.com"
+            link="http://membros.sensoincomum.org"
             size="md"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
           >
