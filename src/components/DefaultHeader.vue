@@ -15,7 +15,7 @@
           <call-to-action
             filled="bege"
             border
-            link="https://pay.hotmart.com/H21810049K"
+            link="https://hotm.art/LnCCXR8W"
             size="md"
             class="sm:mx-2 text-sm sm:text-base"
           >
