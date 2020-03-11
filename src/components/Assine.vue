@@ -37,7 +37,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            link="https://google.com"
+            link="https://pay.hotmart.com/H21810049K"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >

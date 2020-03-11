@@ -34,7 +34,11 @@
             </div>
           </div>
           <div class="flex justify-start px-4">
-            <call-to-action filled="bege" link="https://google.com" size="lg">
+            <call-to-action
+              filled="bege"
+              link="https://pay.hotmart.com/H21810049K"
+              size="lg"
+            >
               <span class="pr-3">Inscreva-se</span> <RightArrow />
             </call-to-action>
           </div>
@@ -195,7 +199,7 @@
         <div class="flex justify-center">
           <call-to-action
             filled="bege"
-            link="https://google.com"
+            link="https://pay.hotmart.com/H21810049K"
             size="lg"
             class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >

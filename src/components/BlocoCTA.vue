@@ -16,7 +16,7 @@
           >
             <call-to-action
               filled="cinza-1"
-              link="https://google.com"
+              link="https://pay.hotmart.com/H21810049K"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >

@@ -14,19 +14,25 @@
             CNPJ: 06.227.644-0001/01.
           </p>
           <div class="flex justify-start pl-8 mt-8">
-            <a href="#" class="pr-2"
+            <a
+              href="https://www.instagram.com/senso.incomum/"
+              target="_blank"
+              class="pr-2"
               ><g-image
                 quality="100"
                 src="~/assets/images/Instagram.png"
               ></g-image
             ></a>
-            <a href="" class="pr-2"
+            <a href="https://twitter.com/sensoinc" target="_blank" class="pr-2"
               ><g-image
                 quality="100"
                 src="~/assets/images/Twitter.png"
               ></g-image
             ></a>
-            <a href="" class="pr-2"
+            <a
+              href="https://business.facebook.com/sensoincomumorg/"
+              target="_blank"
+              class="pr-2"
               ><g-image
                 quality="100"
                 src="~/assets/images/Facebook.png"
@@ -36,22 +42,21 @@
         </div>
         <div class="mt-16 lg:mt-0 pl-8 lg:pl-8 xl:w-1/3">
           <div>
-            <call-to-action
-              link="https://google.com"
-              size="lg"
-              border
-              class="pr-4"
-            >
+            <call-to-action link="#" size="lg" border class="pr-4">
               <span class="text-guten-bege text-sm">Dúvidas</span>
             </call-to-action>
-            <call-to-action link="https://google.com" size="lg" border>
+            <call-to-action link="#" size="lg" border>
               <span class="text-guten-bege text-sm">Login</span>
             </call-to-action>
           </div>
           <div class="text-guten-bege font-semibold py-8">
-            <a href="#" class="hover:underline">Política de cancelamento</a>
+            <g-link to="/politica-de-cancelamento/" class="hover:underline">
+              Política de cancelamento
+            </g-link>
             &bull;
-            <a href="#" class="hover:underline">Política de privacidade</a>
+            <g-link to="/politica-de-privacidade/" class="hover:underline">
+              Política de privacidade
+            </g-link>
           </div>
         </div>
       </div>
