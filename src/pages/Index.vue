@@ -286,6 +286,10 @@ export default {
     return {
       videoPopup: false
     }
+  },
+  beforeCreate() {
+    window.location.href =
+      'https://materiais.go.sensoincomum.org/inscricoes-encerradas'
   }
 }
 </script>
