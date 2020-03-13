@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <DefaultHeader />
+    <DefaultHeader v-if="!removeHeader" />
     <slot />
     <DefaultFooter />
   </div>
@@ -19,6 +19,9 @@ import DefaultHeader from '~/components/DefaultHeader'
 import DefaultFooter from '~/components/DefaultFooter'
 
 export default {
+  props: {
+    removeHeader: Boolean
+  },
   components: {
     DefaultHeader,
     DefaultFooter

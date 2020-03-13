@@ -15,6 +15,13 @@ if (process.isClient) {
       ]
     }
   })
+
+  window.rdScript = document.createElement('script')
+  window.rdScript.setAttribute(
+    'src',
+    'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js'
+  )
+  document.querySelector('head').append(window.rdScript)
 }
 
 export default function(Vue, { router, head, isClient }) {
