@@ -2,7 +2,8 @@
   <div class="layout">
     <DefaultHeader v-if="!removeHeader" />
     <slot />
-    <DefaultFooter />
+    <ReducedFooter v-if="reducedFooter" />
+    <DefaultFooter v-else />
   </div>
 </template>
 
@@ -16,15 +17,18 @@ query {
 
 <script>
 import DefaultHeader from '~/components/DefaultHeader'
+import ReducedFooter from '~/components/ReducedFooter'
 import DefaultFooter from '~/components/DefaultFooter'
 
 export default {
   props: {
-    removeHeader: Boolean
+    removeHeader: Boolean,
+    reducedFooter: Boolean
   },
   components: {
     DefaultHeader,
-    DefaultFooter
+    DefaultFooter,
+    ReducedFooter
   }
 }
 </script>

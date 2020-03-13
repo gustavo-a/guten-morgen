@@ -1,14 +1,16 @@
 <template>
-  <Layout :remove-header="true">
-    <div class="bg-black pb-20">
+  <Layout :remove-header="true" :reduced-footer="true">
+    <div class="bg-black">
       <section class="bg-flavio-wrapper flex">
         <div class="container pb-12 bg-flavio mt-auto">
-          <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
+          <div class="flex pt-48 sm:pt-32 pb-10 sm:pb-20">
             <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
-              <h1 class="text-guten-bege italic font-serif text-4xl">
+              <h1
+                class="text-guten-bege italic font-serif text-2xl md:text-4xl"
+              >
                 Webinar exclusivo para partonos sobre a Primeira Guerra Mundial.
               </h1>
-              <div class="mt-8 text-white text-2xl">
+              <div class="mt-8 text-white text-base md:text-2xl">
                 <p>Data: 20/03</p>
                 <p>Horário: 19h</p>
                 <p>Vagas limitadas.</p>
@@ -89,11 +91,25 @@ export default {
 #rd-form-joq3m2m5i .bricks-form__fieldset {
   flex-flow: row nowrap !important;
   justify-content: space-between;
+
+  @media (max-width: 512px) {
+    flex-flow: column nowrap !important;
+  }
 }
 
 #rd-form-joq3m2m5i .bricks-form__field {
   width: 48% !important;
   flex-grow: unset !important;
+
+  @media (max-width: 512px) {
+    width: 100% !important;
+  }
+}
+
+.bricks--component-embeddable-form {
+  @media (max-width: 512px) {
+    width: 100% !important;
+  }
 }
 
 #rd-form-joq3m2m5i #rd-button-joq3m2m5a {
@@ -154,11 +170,11 @@ export default {
   }
 
   @media (max-width: 430px) {
-    height: 630px;
+    height: 670px;
   }
 
   @media (max-width: 360px) {
-    height: 580px;
+    height: 800px;
   }
 }
 
