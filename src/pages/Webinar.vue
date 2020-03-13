@@ -156,7 +156,7 @@ export default {
     background: linear-gradient(
         to bottom,
         rgba(17, 17, 17, 0.02) 0%,
-        rgba(41, 41, 41, 0.86) 75%,
+        rgba(41, 41, 41, 0.86) 35%,
         rgba(49, 49, 49, 1) 90%
       ),
       url('../assets/images/flavio-bg.png') no-repeat center right;
