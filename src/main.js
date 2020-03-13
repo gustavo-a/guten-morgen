@@ -15,13 +15,6 @@ if (process.isClient) {
       ]
     }
   })
-
-  window.rdScript = document.createElement('script')
-  window.rdScript.setAttribute(
-    'src',
-    'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js'
-  )
-  document.querySelector('head').append(window.rdScript)
 }
 
 export default function(Vue, { router, head, isClient }) {
@@ -31,4 +24,9 @@ export default function(Vue, { router, head, isClient }) {
     config: { id: 'UA-123456789-1' }
   })
   head.htmlAttrs = { lang: 'pt-BR' }
+  head.script.push({
+    src:
+      'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js',
+    body: true
+  })
 }
