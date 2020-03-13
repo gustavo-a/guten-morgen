@@ -8,7 +8,7 @@
               <h1
                 class="text-guten-bege italic font-serif text-2xl md:text-4xl"
               >
-                Webinar exclusivo para partonos sobre a Primeira Guerra Mundial.
+                Webinar exclusivo para patronos sobre a Primeira Guerra Mundial.
               </h1>
               <div class="mt-8 text-white text-base md:text-2xl">
                 <p>Data: 20/03</p>
@@ -17,7 +17,7 @@
               </div>
               <div
                 role="main"
-                class="mt-8"
+                class="my-8"
                 id="webinar-42725fbf41f743b3e033"
               ></div>
             </div>
