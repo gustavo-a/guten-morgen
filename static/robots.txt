@@ -1,2 +1,5 @@
-User-agent: *
-Disallow: /
+User-Agent: *
+Disallow:
+Disallow: /404
+
+Sitemap: https://go.sensoincomum.org/sitemap.xml
