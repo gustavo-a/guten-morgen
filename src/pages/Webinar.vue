@@ -57,7 +57,7 @@ import Popup from '~/components/shared/Popup'
 
 export default {
   metaInfo: {
-    title: 'Conheça a guerra que mudou tudo!'
+    title: 'Webinar exclusivo para Patronos'
   },
   components: {
     PlayButton,
