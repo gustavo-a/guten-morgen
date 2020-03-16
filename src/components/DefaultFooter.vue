@@ -43,7 +43,9 @@
         <div class="mt-16 lg:mt-0 pl-8 lg:pl-8 xl:w-1/3">
           <div>
             <call-to-action link="#" size="lg" border class="pr-4">
-              <span class="text-guten-bege text-sm">Dúvidas</span>
+               <g-link to="/duvidas/" class="text-guten-bege text-sm">
+                Dúvidas
+              </g-link>
             </call-to-action>
             <call-to-action link="#" size="lg" border>
               <span class="text-guten-bege text-sm">Login</span>

@@ -12,18 +12,20 @@
           />
         </div>
         <div class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left">
+          <!-- https://hotm.art/LnCCXR8W -->
           <call-to-action
             filled="bege"
             border
-            link="https://hotm.art/LnCCXR8W"
+            link="#"
             size="md"
             class="sm:mx-2 text-sm sm:text-base"
           >
             Inscreva-se
           </call-to-action>
+          <!-- http://membros.sensoincomum.org -->
           <call-to-action
             border
-            link="http://membros.sensoincomum.org"
+            link=""
             size="md"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
           >
