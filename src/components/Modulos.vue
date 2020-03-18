@@ -16,7 +16,7 @@
                 <div class="titulo">
                   O cenário da Europa antes da Guerra e o início do conflito
                 </div>
-                <div class="duracao">algumas horas</div>
+                
                 <div class="descricao">
                   O mundo antes da Guerra e o mundo após o conflito são completamente irreconhecíveis. Monarquias foram substituídas por democracias, famílias tradicionais por ideologias modernizantes - a Europa e o mundo mudaram radicalmente em 4 anos.
                 </div>
@@ -27,7 +27,7 @@
                 <div class="titulo">
                   Cavando trincheiras contra a tecnologia militar 
                 </div>
-                <div class="duracao">algumas horas</div>
+                
                 <div class="descricao">
                   As cenas da Primeira Guerra mereciam muito mais destaque nos cinemas: desde a primeira batalha, na Bélgica, diariamente cenas de terror (e adrenalina) ocorriam. As mudanças na tecnologia militar dos primeiros conflitos forçaram uma medida desesperada: cavar trincheiras para alguém poder sobreviver.
                 </div>
@@ -38,7 +38,7 @@
                 <div class="titulo">
                   Morte em escala industrial
                 </div>
-                <div class="duracao">algumas horas</div>
+                
                 <div class="descricao">
                   A dura lição da guerra, e o que fez um conflito aparentemente banal em uma região geralmente esquecida do mundo se transformar no maior morticínio que o mundo já havia visto, foi que a tecnologia de matar também avançou muito com a Revolução Industrial.
                 </div>
@@ -49,7 +49,7 @@
                 <div class="titulo">
                   A sombria “paz” e as conseqüências que duram até hoje
                 </div>
-                <div class="duracao">algumas horas</div>
+                
                 <div class="descricao">
                   É um costume pensarmos no mundo antigo, de reis, Estados confessionais e moral pública, e no mundo moderno, de democracia, laicismo e ideologias progressistas, acreditando que tudo mudou naturalmente. Foi o fim violentíssimo da Primeira Guerra que fez surgir o nosso mundo.
                 </div>
