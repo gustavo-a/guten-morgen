@@ -6,9 +6,7 @@
           <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
             <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
               <div class="quote">
-                Só uma mudança cultural profunda, que eleve o nível do debate,
-                não apenas na política, mas em todas as áreas, poderá mudar
-                verdadeiramente o Brasil.
+                Para uma formação intelectual preparada para o mundo de hoje, precisamos entender muitos assuntos. E quase todos começaram ou se materializaram com a Primeira Guerra Mundial.
               </div>
               <p class="font-bold my-2 text-white">Flavio Morgenstern</p>
             </div>
@@ -75,7 +73,7 @@
           <div class="w-full md:w-1/2 lg:w-1/4 my-4 lg:m-0 px-4 flex">
             <div class="w-1/3 flex justify-center"><Star /></div>
             <div class="w-2/3 self-center md:self-start">
-              Ajude e mudar o Brasil
+              Conheça um momento histórico de extrema importância
             </div>
           </div>
         </div>
