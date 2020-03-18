@@ -16,68 +16,42 @@
                 <div class="titulo">
                   O cenário da Europa antes da Guerra e o início do conflito
                 </div>
-                <div class="duracao">+ de 8 mil horas</div>
+                <div class="duracao">algumas horas</div>
                 <div class="descricao">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda illo, error incidunt magni cum qui culpa odit
-                  sapiente sunt. Iure culpa repellendus natus impedit facilis
-                  necessitatibus! In animi eius delectus?
+                  O mundo antes da Guerra e o mundo após o conflito são completamente irreconhecíveis. Monarquias foram substituídas por democracias, famílias tradicionais por ideologias modernizantes - a Europa e o mundo mudaram radicalmente em 4 anos.
                 </div>
               </div>
             </li>
             <li>
               <div class="content">
                 <div class="titulo">
-                  1915: o ano que virou o mundo de cabeça pra baixo.
+                  Cavando trincheiras contra a tecnologia militar 
                 </div>
-                <div class="duracao">+ de 8 mil horas</div>
+                <div class="duracao">algumas horas</div>
                 <div class="descricao">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda illo, error incidunt magni cum qui culpa odit
-                  sapiente sunt. Iure culpa repellendus natus impedit facilis
-                  necessitatibus! In animi eius delectus?
+                  As cenas da Primeira Guerra mereciam muito mais destaque nos cinemas: desde a primeira batalha, na Bélgica, diariamente cenas de terror (e adrenalina) ocorriam. As mudanças na tecnologia militar dos primeiros conflitos forçaram uma medida desesperada: cavar trincheiras para alguém poder sobreviver.
                 </div>
               </div>
             </li>
             <li>
               <div class="content">
                 <div class="titulo">
-                  O período mais violento de todos os tempos.
+                  Morte em escala industrial
                 </div>
-                <div class="duracao">+ de 8 mil horas</div>
+                <div class="duracao">algumas horas</div>
                 <div class="descricao">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda illo, error incidunt magni cum qui culpa odit
-                  sapiente sunt. Iure culpa repellendus natus impedit facilis
-                  necessitatibus! In animi eius delectus?
+                  A dura lição da guerra, e o que fez um conflito aparentemente banal em uma região geralmente esquecida do mundo se transformar no maior morticínio que o mundo já havia visto, foi que a tecnologia de matar também avançou muito com a Revolução Industrial.
                 </div>
               </div>
             </li>
             <li>
               <div class="content">
                 <div class="titulo">
-                  As mudanças políticas, culturais e comportamentais.
+                  A sombria “paz” e as conseqüências que duram até hoje
                 </div>
-                <div class="duracao">+ de 8 mil horas</div>
+                <div class="duracao">algumas horas</div>
                 <div class="descricao">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda illo, error incidunt magni cum qui culpa odit
-                  sapiente sunt. Iure culpa repellendus natus impedit facilis
-                  necessitatibus! In animi eius delectus?
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="content">
-                <div class="titulo">
-                  O fim da guerra e surgimento do mundo atual.
-                </div>
-                <div class="duracao">+ de 8 mil horas</div>
-                <div class="descricao">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda illo, error incidunt magni cum qui culpa odit
-                  sapiente sunt. Iure culpa repellendus natus impedit facilis
-                  necessitatibus! In animi eius delectus?
+                  É um costume pensarmos no mundo antigo, de reis, Estados confessionais e moral pública, e no mundo moderno, de democracia, laicismo e ideologias progressistas, acreditando que tudo mudou naturalmente. Foi o fim violentíssimo da Primeira Guerra que fez surgir o nosso mundo.
                 </div>
               </div>
             </li>
@@ -101,7 +75,7 @@ export default {
   &::before {
     content: '';
     width: 3px;
-    height: 80%;
+    height: 75%;
     background: rgba($color: #b29965, $alpha: 0.4);
     @apply .block .absolute .m-auto .right-0 .left-0;
   }
