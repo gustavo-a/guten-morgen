@@ -9,20 +9,20 @@
       <div class="flex flex-wrap justify-center md:justify-evenly">
         <Depoimento>
           <template #imagem>
-            <g-image src="~/assets/images/eduardo-bolsonaro.jpg"></g-image>
+            <g-image src="~/assets/images/retrato-de-roger-moreira-vocalista-do-ultraje-a-rigor-vertical-600x800.jpg"></g-image>
           </template>
           <template #nome>
-            Eduardo Bolsonaro
+            Roger Moreira
           </template>
           <template #descricao>
-            Lorem ipsum dolor sit amet consectetur.
+            Músico
           </template>
           <template #conteudo>
             <div class="video-container">
               <iframe
                 width="956"
                 height="538"
-                src="https://www.youtube.com/embed/KetGbkalUgQ"
+                src="https://www.youtube.com/embed/qZrMtcKNVSk"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
