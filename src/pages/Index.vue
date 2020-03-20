@@ -6,7 +6,9 @@
           <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
             <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
               <div class="quote">
-                Para uma formação intelectual preparada para o mundo de hoje, precisamos entender muitos assuntos. E quase todos começaram ou se materializaram com a Primeira Guerra Mundial.
+                Para uma formação intelectual preparada para o mundo de hoje,
+                precisamos entender muitos assuntos. E quase todos começaram ou
+                se materializaram com a Primeira Guerra Mundial.
               </div>
               <p class="font-bold my-2 text-white">Flavio Morgenstern</p>
             </div>
@@ -329,10 +331,28 @@ export default {
   }
 
   @media (max-width: 500px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(17, 17, 17, 0.02) 0%,
+        rgba(41, 41, 41, 0.86) 45%,
+        rgba(49, 49, 49, 1) 80%
+      ),
+      url('../assets/images/flavio-bg.png') no-repeat center right;
+    background-size: 130%;
+    background-position: top center;
     height: 680px;
   }
 
   @media (max-width: 430px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(17, 17, 17, 0.02) 0%,
+        rgba(41, 41, 41, 0.86) 35%,
+        rgba(49, 49, 49, 1) 60%
+      ),
+      url('../assets/images/flavio-bg.png') no-repeat center right;
+    background-size: 130%;
+    background-position: top center;
     height: 630px;
   }
 

@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-wrap md:justify-around">
         <div
-          class="w-full md:w-1/2 lg:w-1/3 rounded-lg bg-gray-100 text-center px-4 py-10 self-center mb-16 md:mb-0"
+          class="w-full md:w-1/2 lg:w-1/3 rounded-lg bg-gray-100 text-center px-4 py-10 self-center mb-16 md:mb-0 hidden"
         >
           <Star class="m-auto mb-4" />
           <span>Você investe apenas:</span>
