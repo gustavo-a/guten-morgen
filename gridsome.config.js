@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Guten Morgen GO',
-  siteUrl: 'https://hungry-lovelace-b108f4.netlify.com',
+  siteUrl: 'https://go.sensoincomum.org',
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
