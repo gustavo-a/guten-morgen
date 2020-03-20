@@ -6,9 +6,9 @@
           <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
             <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
               <div class="quote">
-                Só uma mudança cultural profunda, que eleve o nível do debate,
-                não apenas na política, mas em todas as áreas, poderá mudar
-                verdadeiramente o Brasil.
+                Para uma formação intelectual preparada para o mundo de hoje,
+                precisamos entender muitos assuntos. E quase todos começaram ou
+                se materializaram com a Primeira Guerra Mundial.
               </div>
               <p class="font-bold my-2 text-white">Flavio Morgenstern</p>
             </div>
@@ -36,7 +36,7 @@
           <div class="flex justify-start px-4">
             <call-to-action
               filled="bege"
-              link="https://hotm.art/LnCCXR8W"
+              link="https://hotm.art/qBO6Sif"
               size="lg"
             >
               <span class="pr-3">Inscreva-se</span> <RightArrow />
@@ -75,7 +75,7 @@
           <div class="w-full md:w-1/2 lg:w-1/4 my-4 lg:m-0 px-4 flex">
             <div class="w-1/3 flex justify-center"><Star /></div>
             <div class="w-2/3 self-center md:self-start">
-              Ajude e mudar o Brasil
+              Conheça um momento histórico de extrema importância
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@
         <div class="flex justify-center">
           <call-to-action
             filled="bege"
-            link="https://hotm.art/LnCCXR8W"
+            link="https://hotm.art/qBO6Sif"
             size="lg"
             class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >
@@ -209,9 +209,7 @@
       </div>
     </section>
     <!-- Outras sessões -->
-    <DepoimentosSlider />
     <Modulos />
-    <BlocoCTA />
     <Depoimentos />
 
     <section class="py-32">
@@ -257,9 +255,7 @@ import RightArrow from '~/assets/images/right-arrow.svg'
 import Star from '~/assets/images/star.svg'
 import CTA from '~/components/shared/Cta'
 
-import DepoimentosSlider from '~/components/DepoimentosSlider'
 import Modulos from '~/components/Modulos'
-import BlocoCTA from '~/components/BlocoCTA'
 import Depoimentos from '~/components/Depoimentos'
 import Assine from '~/components/Assine'
 import Popup from '~/components/shared/Popup'
@@ -275,9 +271,7 @@ export default {
     RightArrow,
     Star,
     'call-to-action': CTA,
-    DepoimentosSlider,
     Modulos,
-    BlocoCTA,
     Depoimentos,
     Assine,
     Popup
@@ -337,10 +331,28 @@ export default {
   }
 
   @media (max-width: 500px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(17, 17, 17, 0.02) 0%,
+        rgba(41, 41, 41, 0.86) 45%,
+        rgba(49, 49, 49, 1) 80%
+      ),
+      url('../assets/images/flavio-bg.png') no-repeat center right;
+    background-size: 130%;
+    background-position: top center;
     height: 680px;
   }
 
   @media (max-width: 430px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(17, 17, 17, 0.02) 0%,
+        rgba(41, 41, 41, 0.86) 35%,
+        rgba(49, 49, 49, 1) 60%
+      ),
+      url('../assets/images/flavio-bg.png') no-repeat center right;
+    background-size: 130%;
+    background-position: top center;
     height: 630px;
   }
 

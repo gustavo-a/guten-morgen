@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Guten Morgen GO',
-  siteUrl: 'https://go.sensoincomum.org',
+  siteUrl: 'https://hungry-lovelace-b108f4.netlify.com',
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
@@ -26,6 +26,14 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000 // default
+      }
+    },
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-MMX6876',
+        enabled: true,
+        debug: false
       }
     }
   ],

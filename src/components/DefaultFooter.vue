@@ -45,7 +45,7 @@
             <g-link to="/duvidas/" class="text-guten-bege text-sm inline-flex border border-guten-bege rounded font-serif italic py-4 px-8 mr-6 leading-none">
               Dúvidas
             </g-link>
-            <call-to-action link="#" size="lg" border>
+            <call-to-action link="http://membros.sensoincomum.org" size="lg" border>
               <span class="text-guten-bege text-sm">Login</span>
             </call-to-action>
           </div>

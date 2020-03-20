@@ -14,7 +14,7 @@
     >
       <slot />
     </a>
-
+    
     <div
       class="border-guten-bege text-white rounded font-serif italic cursor-pointer"
       v-else

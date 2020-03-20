@@ -2,7 +2,7 @@
   <header class="bg-black">
     <div class="container">
       <div class="flex flex-wrap justify-between pt-4">
-        <div class="sm:px-4 w-full sm:w-1/2" id="logo-header">
+        <g-link to="/" class="sm:px-4 w-full sm:w-1/2" id="logo-header">
           <g-image
             quality="100"
             height="60"
@@ -10,13 +10,13 @@
             fit="inside"
             alt="Guten Morgen GO"
           />
-        </div>
+        </g-link>
         <div class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left">
           <!-- https://hotm.art/LnCCXR8W -->
           <call-to-action
             filled="bege"
             border
-            link="#"
+            link="https://hotm.art/qBO6Sif"
             size="md"
             class="sm:mx-2 text-sm sm:text-base"
           >
