@@ -25,7 +25,7 @@
           <!-- http://membros.sensoincomum.org -->
           <call-to-action
             border
-            link=""
+            link="http://membros.sensoincomum.org"
             size="md"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
           >
