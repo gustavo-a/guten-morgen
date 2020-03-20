@@ -37,7 +37,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            link="https://hotm.art/LnCCXR8W"
+            link="https://hotm.art/qBO6Sif"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >
