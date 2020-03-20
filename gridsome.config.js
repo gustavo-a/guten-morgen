@@ -27,6 +27,14 @@ module.exports = {
       options: {
         cacheTime: 600000 // default
       }
+    },
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-MMX6876',
+        enabled: true,
+        debug: false
+      }
     }
   ],
   css: {

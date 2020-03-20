@@ -20,9 +20,13 @@ if (process.isClient) {
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.use(VueGtag, {
-    config: { id: 'UA-154867274-1' }
-  })
+  Vue.use(
+    VueGtag,
+    {
+      config: { id: 'UA-154867274-1' }
+    },
+    router
+  )
   head.htmlAttrs = { lang: 'pt-BR' }
   head.script.push({
     src:

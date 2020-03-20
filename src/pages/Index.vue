@@ -207,9 +207,7 @@
       </div>
     </section>
     <!-- Outras sessões -->
-    <DepoimentosSlider />
     <Modulos />
-    <BlocoCTA />
     <Depoimentos />
 
     <section class="py-32">
@@ -255,9 +253,7 @@ import RightArrow from '~/assets/images/right-arrow.svg'
 import Star from '~/assets/images/star.svg'
 import CTA from '~/components/shared/Cta'
 
-import DepoimentosSlider from '~/components/DepoimentosSlider'
 import Modulos from '~/components/Modulos'
-import BlocoCTA from '~/components/BlocoCTA'
 import Depoimentos from '~/components/Depoimentos'
 import Assine from '~/components/Assine'
 import Popup from '~/components/shared/Popup'
@@ -273,9 +269,7 @@ export default {
     RightArrow,
     Star,
     'call-to-action': CTA,
-    DepoimentosSlider,
     Modulos,
-    BlocoCTA,
     Depoimentos,
     Assine,
     Popup
