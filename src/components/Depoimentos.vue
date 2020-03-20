@@ -55,20 +55,20 @@
         </Depoimento>
         <Depoimento>
           <template #imagem>
-            <g-image src="~/assets/images/filipe-martins.jpg"></g-image>
+            <g-image src="~/assets/images/bene.jpg"></g-image>
           </template>
           <template #nome>
-            Filipe Martins
+            Bene Barbosa
           </template>
           <template #descricao>
-            Lorem ipsum dolor sit amet consectetur.
+            Especialista em segurança pública
           </template>
           <template #conteudo>
             <div class="video-container">
               <iframe
                 width="956"
                 height="538"
-                src="https://www.youtube.com/embed/KetGbkalUgQ"
+                src="https://www.youtube.com/embed/kWMBBvESvA4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
