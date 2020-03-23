@@ -14,7 +14,7 @@
           </p>
           <call-to-action
             filled="bege"
-            link="https://hotm.art/LnCCXR8W"
+            link="https://hotm.art/tyUU3kJ"
             size="lg"
             class="shadow-2xl mt-8 transform transition-transform duration-300 hover:scale-110"
           >

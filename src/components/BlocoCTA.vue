@@ -16,7 +16,7 @@
           >
             <call-to-action
               filled="cinza-1"
-              link="https://hotm.art/LnCCXR8W"
+              link="https://hotm.art/tyUU3kJ"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >

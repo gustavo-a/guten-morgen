@@ -12,11 +12,10 @@
           />
         </g-link>
         <div class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left">
-          <!-- https://hotm.art/LnCCXR8W -->
           <call-to-action
             filled="bege"
             border
-            link="https://hotm.art/qBO6Sif"
+            link="https://hotm.art/tyUU3kJ"
             size="md"
             class="sm:mx-2 text-sm sm:text-base"
           >

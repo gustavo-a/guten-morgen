@@ -36,7 +36,7 @@
           <div class="flex justify-start px-4">
             <call-to-action
               filled="bege"
-              link="https://hotm.art/qBO6Sif"
+              link="https://hotm.art/tyUU3kJ"
               size="lg"
             >
               <span class="pr-3">Inscreva-se</span> <RightArrow />
@@ -199,7 +199,7 @@
         <div class="flex justify-center">
           <call-to-action
             filled="bege"
-            link="https://hotm.art/qBO6Sif"
+            link="https://hotm.art/tyUU3kJ"
             size="lg"
             class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >

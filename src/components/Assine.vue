@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-wrap md:justify-around">
         <div
-          class="w-full md:w-1/2 lg:w-1/3 rounded-lg bg-gray-100 text-center px-4 py-10 self-center mb-16 md:mb-0 hidden"
+          class="w-full md:w-1/2 lg:w-1/3 rounded-lg bg-gray-100 text-center px-4 py-10 self-center mb-16 md:mb-0"
         >
           <Star class="m-auto mb-4" />
           <span>Você investe apenas:</span>
@@ -37,7 +37,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            link="https://hotm.art/qBO6Sif"
+            link="https://hotm.art/tyUU3kJ"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >
