@@ -9,12 +9,15 @@
           class="w-full md:w-1/2 lg:w-1/3 rounded-lg bg-gray-100 text-center px-4 py-10 self-center mb-16 md:mb-0"
         >
           <Star class="m-auto mb-4" />
-          <span>Você investe apenas:</span>
+          <div class="text-3xl font-serif text-guten-bege italic">
+            De R$ <span class="line-through">489,90</span>
+          </div>
+          <span>Por apenas:</span>
           <div class="grid font-serif text-guten-bege my-4 italic">
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 34,00</div>
+            <div class="text-5xl">R$ 33,90</div>
           </div>
-          <span>Total:R$340,00</span>
+          <span>Total:R$339,00</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold">
