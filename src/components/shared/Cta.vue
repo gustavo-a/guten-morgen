@@ -14,7 +14,7 @@
     >
       <slot />
     </a>
-    
+
     <div
       class="border-guten-bege text-white rounded font-serif italic cursor-pointer"
       v-else
@@ -39,6 +39,9 @@ export default {
     filled: String,
     size: String,
     border: Boolean
+  },
+  mounted() {
+    this.link = this.link + window.location.search
   }
 }
 </script>
