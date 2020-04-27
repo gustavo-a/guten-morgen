@@ -16,7 +16,7 @@
           >
             <call-to-action
               filled="cinza-1"
-              :link="$static.generalData.hotmartUrl | utmParameters"
+              :link="$static.generalData.hotmartUrl"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >

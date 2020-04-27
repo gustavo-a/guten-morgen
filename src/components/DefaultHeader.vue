@@ -15,7 +15,7 @@
           <call-to-action
             filled="bege"
             border
-            :link="$static.generalData.hotmartUrl | utmParameters"
+            :link="$static.generalData.hotmartUrl"
             size="md"
             class="sm:mx-2 text-sm sm:text-base"
           >

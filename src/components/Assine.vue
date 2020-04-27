@@ -40,7 +40,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            :link="$static.generalData.hotmartUrl | utmParams"
+            :link="$static.generalData.hotmartUrl"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >
@@ -64,16 +64,12 @@ query{
 import CTA from '~/components/shared/Cta'
 import RightArrow from '~/assets/images/right-arrow.svg'
 import Star from '~/assets/images/star.svg'
-import utmParams from '~/filters/utmParams'
 
 export default {
   components: {
     'call-to-action': CTA,
     RightArrow,
     Star
-  },
-  filters: {
-    utmParams
   }
 }
 </script>
