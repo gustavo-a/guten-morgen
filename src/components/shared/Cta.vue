@@ -10,7 +10,7 @@
         'py-4 px-8': size === 'lg',
         border: border
       }"
-      :href="link"
+      :href="linkUTM"
     >
       <slot />
     </a>
@@ -40,8 +40,13 @@ export default {
     size: String,
     border: Boolean
   },
+  data() {
+    return {
+      linkUTM: ''
+    }
+  },
   mounted() {
-    this.link = this.link + window.location.search
+    this.linkUTM = this.link + window.location.search
   }
 }
 </script>
