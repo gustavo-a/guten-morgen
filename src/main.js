@@ -33,4 +33,8 @@ export default function(Vue, { router, head, isClient }) {
       'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js',
     body: true
   })
+  head.meta.push({
+    name: 'google-site-verification',
+    content: 'V7SwgflyF0PKcrl0ZRA0xqYzfRQ6bU6Lg-zHovisZNQ'
+  })
 }
