@@ -37,9 +37,4 @@ export default function(Vue, { router, head, isClient }) {
     name: 'google-site-verification',
     content: 'V7SwgflyF0PKcrl0ZRA0xqYzfRQ6bU6Lg-zHovisZNQ'
   })
-  if (process.isClient) {
-    Vue.filter('utmParameters', link => {
-      return `${link}${window.location.search}`
-    })
-  }
 }
