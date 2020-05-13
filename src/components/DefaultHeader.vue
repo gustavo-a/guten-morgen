@@ -1,5 +1,22 @@
 <template>
   <header class="bg-black">
+    <Countdown
+      :starttime="new Date()"
+      endtime="May 15, 2020 23:59:59"
+      trans='{  
+         "day":" dias",
+         "hours":"h",
+         "minutes":"min",
+         "seconds":"s",
+         "expired":"Event has been expired.",
+         "running":"Para encerrarmos as vendas",
+         "upcoming":"Till start of event.",
+         "status": {
+            "expired":"Expired",
+            "running":"Running",
+            "upcoming":"Future"
+           }}'
+    />
     <div class="container">
       <div class="flex flex-wrap justify-between pt-4">
         <g-link to="/" class="sm:px-4 w-full sm:w-1/2" id="logo-header">
@@ -46,13 +63,15 @@ query{
 
 <script>
 import CTA from '~/components/shared/Cta'
+import Countdown from '~/components/shared/Countdown'
 import User from '~/assets/images/user.svg'
 
 export default {
   name: 'DefaultHeader',
   components: {
     'call-to-action': CTA,
-    User
+    User,
+    Countdown
   }
 }
 </script>
