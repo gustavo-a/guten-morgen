@@ -5,10 +5,10 @@
         <p class="text-base sm:text-xl">As inscrições serão encerradas em:</p>
       </div>
       <div class="flex justify-center items-center">
-        <div class="day">
+        <!-- <div class="day">
           <span class="number">{{ days }}{{ wordString.day }}</span>
-          <!-- <div class="format">{{ wordString.day }}</div> -->
-        </div>
+          <div class="format">{{ wordString.day }}</div>
+        </div> -->
         <div class="hour">
           <span class="number">{{ hours }}{{ wordString.hours }}</span>
           <!-- <div class="format">{{ wordString.hours }}</div> -->
