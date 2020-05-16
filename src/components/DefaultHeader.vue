@@ -2,7 +2,7 @@
   <header class="bg-black">
     <Countdown
       :starttime="new Date()"
-      endtime="May 15, 2020 23:59:59"
+      endtime="May 16, 2020 00:10:00"
       trans='{  
          "day":" dias",
          "hours":"h",
