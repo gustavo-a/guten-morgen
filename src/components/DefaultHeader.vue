@@ -1,6 +1,6 @@
 <template>
   <header class="bg-black">
-    <Countdown
+    <!-- <Countdown
       :starttime="new Date()"
       endtime="May 16, 2020 00:10:00"
       trans='{  
@@ -16,7 +16,7 @@
             "running":"Running",
             "upcoming":"Future"
            }}'
-    />
+    /> -->
     <div class="container">
       <div class="flex flex-wrap justify-between pt-4">
         <g-link to="/" class="sm:px-4 w-full sm:w-1/2" id="logo-header">
