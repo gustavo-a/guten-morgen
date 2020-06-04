@@ -15,9 +15,9 @@
           <span>Por apenas:</span>
           <div class="grid font-serif text-guten-bege my-4 italic">
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 33,90</div>
+            <div class="text-5xl">R$ 48,99</div>
           </div>
-          <span>Total:R$339,00</span>
+          <span>Total:R$489,90</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold">
